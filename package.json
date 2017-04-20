@@ -1,0 +1,13 @@
+{
+  "name": "shield-study-utils",
+  "version": "0.1.0",
+  "title": "Shield Study Utils",
+  "main": "shield.js",
+  "bin": {
+    "shield": "shield.js"
+  },
+  "license": "MPL-2.0",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
