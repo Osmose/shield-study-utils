@@ -6,7 +6,7 @@
 const {utils: Cu} = Components;
 Cu.import("resource://gre/modules/Log.jsm");
 
-const log = Log.repository.getLogger();
+const log = Log.repository.getLogger("shield-example");
 log.addAppender(new Log.ConsoleAppender(new Log.BasicFormatter()));
 log.level = 0;
 
